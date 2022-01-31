@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function WaterfrontDropdown({ setWaterfrontId }) {
   function handleChange(e) {
-    console.log(e.target.value);
     setWaterfrontId(e.target.value);
   }
   return (
