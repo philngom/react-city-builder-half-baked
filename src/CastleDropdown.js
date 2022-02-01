@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CastleDropdown({ castleId, setCastleId }) {
+export default function CastleDropdown({ setCastleId }) {
   function handleChange(e) {
     setCastleId(e.target.value);
   }
